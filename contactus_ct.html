@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link
+            href="https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&family=Noto+Serif+Display:wght@300&display=swap"
+            rel="stylesheet">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Trilig Energy about us</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/contactus_ct.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+  
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto " href="./homepage_ct.html">Home</a></li>
+          <li><a class="nav-link scrollto" href=".//homepage_ct.html">About</a></li>
+          <li class="dropdown">
+            <a href="./homepage_ct.html" class="nav-link scrollto"><span>Services</span> </a>
+            <ul>
+              <li><a href="#">Bio Ethanol</a></li>
+              <li><a href="#">Compressed Bio Gas</a></li>
+              <li><a href="#">Green Hydrogen</a></li>
+              <li><a href="#">SOlar Powered Energy</a></li>
+            </ul>
+          </li>
+          <!-- <li><a class="nav-link scrollto" href="./client.html">Clients</a></li> -->
+          <li><a class="nav-link scrollto" href="./homepage_ct.html">Products</a></li>
+          <li><a class="nav-link scrollto" href="./contactus_ct.html">Contact</a></li>
+          <li><a class="getstarted scrollto" href="./homepage_ct.html">Get Started</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
+  <style>
+  .navbar .dropdown ul {
+  display: block;
+  position: absolute;
+  left: 14px;
+  top: calc(100% + 30px);
+  margin: 0;
+  padding: 10px 0;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  background: #fff;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  transition: 0.3s;
+}
+
+.navbar .dropdown:hover > ul {
+  opacity: 1;
+  top: 100%;
+  visibility: visible;
+}
+
+.navbar .dropdown ul li {
+  min-width: 200px;
+}
+
+.navbar .dropdown ul a {
+  padding: 10px 20px;
+  font-size: 14px;
+  text-transform: none;
+  color: #333333;
+}
+
+.navbar .dropdown ul a:hover,
+.navbar .dropdown ul .active:hover,
+.navbar .dropdown ul li:hover > a {
+  color: #2196f3;
+}
+</style>
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+          <h1 style="font-size: 50px;">This is Trilig Energy</h1>
+          <h2>Your One stop solutions Provider for all Facility Management Needs!</h2>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+        </div>
+      </div>
+    </div> -->
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <section class="get-in-touch">
+        <h1 class="title">Get in touch</h1>
+        <form class="contact-form row" onsubmit="sendEmail(); reset(); return false">
+           <div class="form-field col-lg-6">
+              <input id="name" class="input-text js-input" type="text" required>
+              <label class="label" for="name">Name</label>
+           </div>
+           <div class="form-field col-lg-6 ">
+              <input id="email" class="input-text js-input" type="email" required>
+              <label class="label" for="email">E-mail</label>
+           </div>
+           <div class="form-field col-lg-6 ">
+              <input id="company" class="input-text js-input" type="text" required>
+              <label class="label" for="company">Company Name</label>
+           </div>
+            <div class="form-field col-lg-6 ">
+              <input id="phone" class="input-text js-input" type="text" required>
+              <label class="label" for="phone">Contact Number</label>
+           </div>
+           <div class="form-field col-lg-12">
+              <input id="message" class="input-text js-input" type="text" required>
+              <label class="label" for="message">Message</label>
+           </div>
+           <div class="form-field col-lg-12">
+              <input class="submit-btn" type="submit" value="Submit">
+           </div>
+        </form>
+     </section>
+    </section><!-- End About Us Section -->
+
+
+    <!-- ======= Cta Section ======= -->
+    <!-- <section id="cta" class="cta">
+
+      <div class="iframe-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d232.40834249908013!2d81.67150659399606!3d21.250340412598078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a28dd6f059c46dd%3A0x4afd89ca5f973cfd!2sClean%20Tech!5e0!3m2!1sen!2sin!4v1685563208383!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      
+
+
+    </section> -->
+    <!-- End Cta Section -->
+
+
+
+
+    <!-- ======= Awards Section ======= -->
+    <section id="team" class="team section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Reach Out to Us At:</h2>
+          <p>You can reach out to us for our <b>Top-Notch</b> services at the following:-</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="hompage_imgs/mail.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Mail Us At:</h4>
+                <span>info@Trilig Energyservices.org.in <br>
+                  info@Trilig Energyservices.org.in </span>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="hompage_imgs/call.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Call Us At:</h4>
+                <span>+91 1800-000-000 <br>
+                  +91 1800-000-000 <br>
+                  +91 1800-000-000</span>
+                
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+<!-- ======= Clients Section ======= -->
+<
+<!-- End Cliens Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer>
+    <div class="footer">
+    <div class="row" id="media_links">
+    <a href="#"><i class="fa fa-facebook"></i></a>
+    <a href="#"><i class="fa fa-instagram"></i></a>
+    <a href="#"><i class="fa fa-linkedin"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    </div>
+    
+    <div class="row">
+    <ul>
+      <li><a class="nav-link scrollto " href="./homepage_ct.html">Home</a></li>
+      <li><a class="nav-link scrollto" href="./aboutus.html">About</a></li>
+      <li><a class="nav-link scrollto" href="./services_ct.html">Services</a></li>
+      <li><a class="nav-link scrollto" href="./contact.html">Clients</a></li>
+      <li><a class="nav-link scrollto" href="./contactus.html">Contact</a></li>
+      <li><a class="getstarted scrollto" href="./aboutus.html">Get Started</a></li>
+    </ul>
+    </div>
+    
+    <div class="row" id="footer_txt">
+    @2020 Trilig Energy Services & Workforce All rights reserved. Design By - WorkZera
+    </div>
+    </div>
+    </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+  <script>
+    function sendEmail(){
+      Email.send({
+        Host : "smtp.elasticemail.com",
+        Username : "username",
+        Password : "password",
+        To : 'them@website.com',
+        From : "you@isp.com",
+        Subject : "This is the subject",
+        Body : "And this is the body"
+    }).then(
+      message => alert(message)
+    ); 
+    }
+  </script>
+
+</body>
+
+</html>
